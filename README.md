@@ -13,3 +13,6 @@ fastOptJS::startWebpackDevServer
 ```
 sbt fastOptJS::webpack
 ```
+
+## 2048 Demo Application Link
+https://owebretthauer.github.io/scalajs_2048/index.html
