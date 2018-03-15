@@ -44,7 +44,7 @@ object AppCSS extends js.Object
   def render() = {
 
     div(
-      div(className := "points")("Ponits: ", state.game.points),
+      div(className := "points")("Points: ", state.game.points),
       div(Table(state.game.board.state)),
       div(className := "control")(
         input(`type` := "text", onKeyDown := (event => keyDown(event))),

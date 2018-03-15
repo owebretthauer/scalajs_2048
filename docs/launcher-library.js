@@ -10928,7 +10928,7 @@ function $s_Lgame_GameBoard__render__Lgame_GameBoard__Lslinky_core_facade_ReactE
   var i$2 = $as_Lgame_GameBoard$State($this.state_scala).game$1.points$1;
   var jsx$2 = $i_react;
   var a = this$11.slinky$core$WithAttrs$$name$f;
-  var x0$2 = jsx$2.createElement(a, this$11.slinky$core$WithAttrs$$attrs$f, "Ponits: ", i$2);
+  var x0$2 = jsx$2.createElement(a, this$11.slinky$core$WithAttrs$$attrs$f, "Points: ", i$2);
   var x0 = $m_Lslinky_core_KeyAndRefAddingStage$().build__Lslinky_core_KeyAndRefAddingStage__Lslinky_core_facade_ReactElement($m_Lgame_Table$().apply__sci_List__Lslinky_core_KeyAndRefAddingStage($as_Lgame_GameBoard$State($this.state_scala).game$1.board$1.state$1));
   var x1$4 = $i_react.createElement("div", {}, x0);
   var pair$1 = $m_Lslinky_web_html_className$().$$colon$eq__T__Lslinky_core_AttrPair("control");
